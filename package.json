@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant-Page\t\t",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eablaev/Restaurant-Page.git"
+  },
+  "author": "Ervin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eablaev/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/eablaev/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

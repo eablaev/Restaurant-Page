@@ -1,13 +1,11 @@
-export default function content() {
-    const contentElement = document.createElement('div');
-    contentElement.classList.add('content');
-    
-    
-    document.body.appendChild(contentElement)
+export default function content(state) {
+    const contentElement = document.getElementById('content')
     
     
 
- 
+
+    
+    
 
     const heading = document.createElement('h1');
     heading.textContent = "Worst Restaurant in the World!";
@@ -33,5 +31,10 @@ export default function content() {
     contentElement.appendChild(image);
     contentElement.appendChild(description);
     contentElement.appendChild(menu)
+
+    menu.addEventListener('click',function(){
+        state = 'menu'
+        console.log(state)
+    })
 
 }

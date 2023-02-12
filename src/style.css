@@ -1,3 +1,40 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tabs {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    list-style-type:none;
+    padding-left: 0;
+    gap: 10px;
+    
+}
+
+.menu, 
+.home {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+
+
 .heading {
 text-align: center;
 font-family: 'Courier New', Courier, monospace;
@@ -20,3 +57,4 @@ text-align: center;
 font-family: 'Courier New', Courier, monospace;
 font-weight: 200;
 }
+

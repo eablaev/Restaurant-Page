@@ -1,14 +1,7 @@
 export default function menu() {
-    const contentElement = document.createElement('div');
-    contentElement.classList.add('content');
     
+    const contentElement = document.getElementById('content')
     
-    document.body.appendChild(contentElement)
-    
-    
-
- 
-
     const heading = document.createElement('h1');
     heading.textContent = "Menu";
     heading.classList.add('menu')
